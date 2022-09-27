@@ -1,0 +1,19 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "'BMI Calculator'",
+  "main": "bmr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinarobertovna/Web-Development-Assignments.git"
+  },
+  "author": "'Alina'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alinarobertovna/Web-Development-Assignments/issues"
+  },
+  "homepage": "https://github.com/alinarobertovna/Web-Development-Assignments#readme"
+}

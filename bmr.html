@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <!-- Student name: Alina Fadeeva Student number: 301249589 -->
+<head>
+<title>BMR Calculator</title>
+<meta charset="utf=8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="bmr.css">
+</head>
+<body>
+    <main>
+    <input id="tab1" type="radio" name="tabs" checked>
+    <label for="tab1">Metric BMR Calculator</label>
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2">Imperial BMR Calculator</label>
+    <section id="content1">
+        <form id="metric">
+            <br> 
+            <br>
+            <label for="gender">GENDER:</label> 
+            <select name="gender" id="gender"> 
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+            </select> <br> <br>
+            <label for="age">AGE:</label>
+            <input type="number" name="age" id="age"> <br> <br>
+            <p style="font-weight:bold">YOUR HEIGHT:</p> 
+            <label for="height">CENTIMETERS:</label>
+            <input type="number" name="height" id="height"> <br> <br>
+            <p style="font-weight:bold">YOUR WEIGHT:</p> 
+            <label for="weight">KILOGRAMS:</label>
+            <input type="number" name="weight" id="weight"> <br> <br> <br> 
+            Select your activity level:
+            <br> <br>
+            <input type="radio" name="activity" id="activityLevel1" value="activityLevel1">I am sedentary (little or no exercise) <br>
+            <input type="radio" name="activity" id="activityLevel2" value="activityLevel2">I am lightly active (light exercise or sports 1-3 days per week) <br>
+            <input type="radio" name="activity" id="activityLevel3" value="activityLevel3">I am moderately active (moderate exercise or sports 3-5 days per week) <br>
+            <input type="radio" name="activity" id="activityLevel4" value="activityLevel4">I am very active (hard exercise or sports 6-7 days per week) <br>
+            <input type="radio" name="activity" id="activityLevel5" value="activityLevel5">I am super active (very hard exercise or sports and physical job or 2x training) <br>
+            <br>
+            <input type="submit" id="submit1" value="Calculate BMR">
+        </form>       
+    </section>
+    <section id="content2">
+        <form id="imperial">
+            <br> 
+            <br>
+            <label for="gender">GENDER:</label> 
+            <select name="gender" id="gender2"> 
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+            </select> <br> <br>
+            <label for="age">AGE:</label>
+            <input type="number" name="age" id="age2"> <br> <br>
+            <p style="font-weight:bold">YOUR HEIGHT:</p> 
+            <label for="height">INCHES:</label>
+            <input type="number" name="height" id="height2"> <br> <br>
+            <p style="font-weight:bold">YOUR WEIGHT:</p> 
+            <label for="weight">POUNDS:</label>
+            <input type="number" name="weight" id="weight2"> <br> <br> <br>
+            Select your activity level:
+            <br> <br>
+            <input type="radio" name="activity" id="activityLevel6" value="activityLevel6">I am sedentary (little or no exercise) <br>
+            <input type="radio" name="activity" id="activityLevel7" value="activityLevel7">I am lightly active (light exercise or sports 1-3 days per week) <br>
+            <input type="radio" name="activity" id="activityLevel8" value="activityLevel8">I am moderately active (moderate exercise or sports 3-5 days per week) <br>
+            <input type="radio" name="activity" id="activityLevel9" value="activityLevel9">I am very active (hard exercise or sports 6-7 days per week) <br>
+            <input type="radio" name="activity" id="activityLevel10" value="activityLevel10">I am super active (very hard exercise or sports and physical job or 2x training) <br>
+            <br>
+            <input type="submit" id="submit2" value="Calculate BMR">
+        </form>       
+    </section>
+    </main>
+    <script src="bmr.js"></script>
+</body>
